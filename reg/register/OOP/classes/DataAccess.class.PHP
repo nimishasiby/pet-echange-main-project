@@ -6,7 +6,7 @@ class DataAccess
 	
 	public function __construct()
 	{
-		if(!$this->_con=mysqli_connect("localhost","root","","petshop"))
+		if(!$this->_con=mysqli_connect("localhost","azure","","petshop"))
 		{
 			die("connection Error");
 		}
