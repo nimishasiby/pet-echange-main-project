@@ -56,5 +56,5 @@
           with:
             app-name: 'petshop-management'
             slot-name: 'production'
-            publish-profile: ${{ secrets.AzureAppService_PublishProfile_779e30b22d614f7da041cada1fb4329b }}
+            publish-profile: ${{ secrets.AzureAppService_PublishProfile_6ff2004aecb145afaf07f4bf44f19b28 }}
             package: .
